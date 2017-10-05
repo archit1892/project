@@ -1,0 +1,24 @@
+#mainform table { width: 95%; }
+#mainform tr:nth-child(even) {
+    background-color: #ebeff3;
+}
+#mainform tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.regular-text { width: 200px }
+.fullwidth-text { width: 95%; }
+
+.small-select { width: 100px }
+.regular-select { width: 200px }
+.fullwidth-select { width: 95%; }
+
+.form-label { text-align: right; padding-top: 4px; padding-right: 10px; }
+.form-desc { font-style: italic; padding-top: 0px; margin-top: 0px; }
+#select2-authordiv {
+    width: 250px;
+}
+#pdf-list .pdf-item:nth-child(even) {
+    background-color: #cccccc;
+}
+#availability { width: 300px }
